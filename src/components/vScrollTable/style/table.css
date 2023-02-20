@@ -1,0 +1,36 @@
+.v-scroll-table-wrap {
+  position: relative;
+  height: 500px;
+}
+
+.v-scroll-table-virtual-wrap {
+  overflow-y: scroll;
+}
+
+.v-scroll-vertical {
+  width: 0;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-center {
+  text-align: center;
+}
+
+.v-scroll-table-body-wrap {
+  position: relative;
+}
+
+.v-scroll-table-body {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  table-layout: fixed;
+}
